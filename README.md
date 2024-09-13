@@ -1,1 +1,1 @@
-# proxy.kasm.img
+# kasm.proxy.img
