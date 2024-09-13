@@ -11,12 +11,11 @@ next:
 		base_image: kasmweb/nginx:latest
 		image_name: eons/kasm.proxy.img
 		image_os: debian
-		also:
-		- COPY srv /srv
+		also:		- COPY srv /srv
 		tags:
 		- "1.15.0"
 		- latest
-		entrypoint: None
+		entrypoint: /start.sh
 - build: docker_publish
 	run_when_any:
 	- release
