@@ -1,7 +1,7 @@
 build_in: build
 type: img
 name: kasm.proxy.img
-clear_build_path: false
+clear_build_path: true
 next:
 - build: docker
 	build_in: docker
